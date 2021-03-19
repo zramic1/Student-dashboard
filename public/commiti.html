@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+    <TITLE>Pregled commita</TITLE>
+    <link rel="stylesheet" type="text/css" href="izgledZaCommiti.css">
+    <link rel="stylesheet" type="text/css" href="headerIFooter.css">
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <SCRIPT src="committabela.js"></SCRIPT>
+    <script src="commiti.js"></script>
+    <script src="validacija.js"></script>
+    
+    </HEAD>
+    <BODY>
+    <div id="commit">
+
+        <div id="header">
+            <img id="logo" src="https://2.bp.blogspot.com/-dzDI9h3GKZE/WVF6AtMKEOI/AAAAAAAAGzA/rbrotJdBW30ry6xBBidb0PaaSXgl7QT5ACLcBGAs/s1600/paper_bird.png" alt="logo">
+            <h1>Pregled commita</h1> 
+            <div id="meni">
+                    <ul>
+                        <li><a href="zadaci.html">Pregled godine</a></li>
+                        <li><a href="addGodina.html">Dodavanje godine</a></li>
+                        <li><a href="studenti.html">Pregled studenata</a></li>
+                        <li><a href="addStudent.html">Dodavanje studenata</a></li>
+                        <li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+                        <li><a href="commiti.html">Pregled commita</a></li>
+                        <li><a href="addVjezba.html">Dodavanje vježbe/spirale</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+            </div>
+        </div> 
+
+        <div id="glavni">
+           
+            <p class="poseban">Student: Neko Nekić, 1234</p>
+            <p class="poseban">Naziv vježbe/spirale: Vježba 1</p>
+            <p class="poseban">Repozitorij: 
+                <a  id="hyperlink" href="#">Hyperlink</a>
+            </p>
+
+            <div id=side>
+            <form id="kreiraj" action="#">
+                <br>
+                <b>Kreiraj tabelu</b>
+                <br>
+                Unesite broj redova:
+                <br>
+                <input type="number" id="kbrRedova" required>
+                <input type="submit" value="Kreiraj" onclick="return kreiraj()">
+                <br><br>
+                <b>Dodaj commit</b>
+                <br>
+                Unesite broj reda:
+                <input type="number" id="dbrReda">
+                Unesite url: <input type="text" id="durl">
+                <input type="submit" value="Potvrdi" onclick="return dodaj()">
+                <br><br>
+                <b>Edituj commit</b>
+                <br>
+                Unesite broj reda:
+                <input type="number" id="ebrReda">
+                Unesite broj commita:
+                <input type="number" id="ebrCommita">
+                Unesite url:
+                <input type="text" id="eurl">
+                <input type="submit" value="Potvrdi" onclick="return edituj()">
+                <br><br>
+                <b>Obriši commit</b>
+                <br>
+                Unesite broj reda:
+                <input type="number" id="obrReda">
+                Unesite broj commita:
+                <input type="number" id="obrCommita">
+                <input type="submit" value="Potvrdi"  onclick="return obrisi()">
+
+
+            </form>
+
+            <div id=ispis></div>
+
+            </div>
+        
+
+        </div>
+
+        <div id="footer">
+            <p id="parFooter">Web tehnologije 2018/19</p>
+        </div>
+
+    </div>
+    </BODY>
+</HTML>
+    

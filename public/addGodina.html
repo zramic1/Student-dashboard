@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+    <TITLE>Dodavanje godine</TITLE>
+    <link rel="stylesheet" type="text/css" href="izgledZaAddGodina.css">
+    <link rel="stylesheet" type="text/css" href="headerIFooter.css">
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="validacija.js"></script>
+    <script src="addGodina.js"></script>
+    <script src="godineAjax.js"></script>
+    <script src="poveziGodineAjax.js"></script>
+    </HEAD>
+    <BODY onload = "povezi()">
+    <div id="okvir">
+
+        <div id="header">
+            <img id="logo" src="https://2.bp.blogspot.com/-dzDI9h3GKZE/WVF6AtMKEOI/AAAAAAAAGzA/rbrotJdBW30ry6xBBidb0PaaSXgl7QT5ACLcBGAs/s1600/paper_bird.png" alt="logo">
+            <h1>Dodavanje godine</h1> 
+            <div id="meni">
+                    <ul>
+                        <li><a href="zadaci.html">Pregled godine</a></li>
+                        <li><a href="addGodina.html">Dodavanje godine</a></li>
+                        <li><a href="studenti.html">Pregled studenata</a></li>
+                        <li><a href="addStudent.html">Dodavanje studenata</a></li>
+                        <li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+                        <li><a href="commiti.html">Pregled commita</a></li>
+                        <li><a href="addVjezba.html">Dodavanje vježbe/spirale</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+            </div>
+        </div> 
+
+        <div id="side">
+            <form action="/addGodina" method="post" onsubmit="return izvrsi()">
+                <p>Unos godine:</p>   
+                <p class="parUFormi">Naziv godine</p>
+                <input type="text" name="nazivGod"  id="naziv" required>
+                <p class="parUFormi">Naziv repozitorija vježbe</p> 
+                <input type="text" name="nazivRepVje"  id="rvjezbe" required>
+                <p class="parUFormi">Naziv repozitorija spirale</p> 
+                <input type="text" name="nazivRepSpi" id="rspiral" required>
+                <br>
+                <input type="button" name="button" value="Poništi">
+                <input type="submit" value="Unesi">
+               <!-- <input type="button" onclick="return dodaj()"> dugme za testiranje metode osvjezi-->
+                <div id="ispis"></div>
+            </form>
+        </div>
+
+        <div id="glavniSadrzaj"> 
+        </div>
+        
+        <div id="footer">
+            <p id="parFooter">Web tehnologije 2018/19</p>
+        </div>
+
+    </div>
+    </BODY>
+</HTML>
+    

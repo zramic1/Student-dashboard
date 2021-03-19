@@ -1,0 +1,278 @@
+@media only screen and (min-Width: 600px){
+
+    body {
+        height: 100vh;
+        margin: auto;
+    }
+
+    #vjezbe {
+        height: 100%;
+        background-color: #adc1eb;
+    }
+
+    #glavniSadrzaj {
+        width: 85%;
+        margin: auto; 
+        background-color: #eaeffa; 
+        margin-bottom:-1.3em;
+        height: 72%;
+        overflow: auto;
+    }
+
+
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.1em;
+        text-align: left;
+        color: #0f1e3e;
+        position: relative;
+        left:10%;
+        margin-bottom: 1%;
+        width: 95%;
+    }
+
+    form[name="fPostojeca"] {
+        text-align: left;
+        border: outset;
+        height: 40%;
+        width: 40%;
+        margin: auto;
+        position: relative;
+        top:2%;
+        background-color: #d6e0f5;
+    }
+
+    form[name="fNova"] {
+        text-align: left;
+        border: outset;
+        height: 40%;
+        width: 40%;
+        margin: auto;
+        position: relative;
+        top:3%;
+        background-color: #d6e0f5;
+    }
+
+    form[name="fPoveziZadatak"] {
+        text-align: left;
+        border: outset;
+        height: 30%;
+        width: 40%;
+        margin: auto;
+        position: relative;
+        top:4%;
+        background-color: #d6e0f5;
+    }
+
+    .parUFormi {
+        text-align: left;
+        font-size: 1em;
+        position: relative;
+        left:10%;
+        margin-bottom: 1%;
+        margin-top:2%;
+    }
+
+    input[type="text"] {
+        position: relative;
+        left:10%;
+        width: 47%;
+    }
+    
+    input[type="submit"] {
+        width: 25%;
+        margin-top: 0.3%;
+        float: right;
+        margin-right: 7.5%;
+        margin-bottom: 0.5%;
+    }
+
+    input[type="button"] {
+        margin-left: 3%;
+        width: 35%;
+
+    }
+
+    select {
+        margin-left: 10%;
+        width: 48%;
+        height: 15%;
+    }
+
+    #lista {
+        margin-left:10%;
+        list-style: none;
+        border: 1px solid black;
+        width: 38%;
+        background-color: white;
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    #lista li {
+        font-size: 1em;
+    }
+
+    input[type="checkbox"] {
+        position: relative;
+        left: 5%;
+        width: 13%;
+        margin-top: 1%;
+        margin-bottom: 0.5%;
+    }
+
+    #ispis1, #ispis2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        margin-top: 0%;
+        font-size: 0.9em;
+    }
+   
+    
+}
+
+@media only screen and (max-Width: 600px){
+
+    body {
+        height: 100vh;
+        margin: auto;
+    }
+
+    #vjezbe {
+        height: 100%;
+        background-color: #adc1eb;
+    }
+
+
+    #glavniSadrzaj {
+        width: 100%;
+        background-color: #eaeffa;
+        height: 73%;  
+        margin-bottom: -1.3em;
+        overflow: auto;
+    }
+
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1em;
+        text-align: center;
+        color: #0f1e3e;
+        margin-bottom: 1%;
+    }
+
+
+    form[name="fPostojeca"] {
+        text-align: left;
+        border: outset;
+        height: 40%;
+        width: 80%;
+        margin: auto;
+        position: relative;
+        top:2%;
+        background-color: #d6e0f5;
+    }
+
+    form[name="fNova"] {
+        text-align: left;
+        border: outset;
+        height: 40%;
+        width: 80%;
+        margin: auto;
+        position: relative;
+        top:3%;
+        background-color: #d6e0f5;
+    }
+
+    form[name="fPoveziZadatak"] {
+        text-align: left;
+        border: outset;
+        height: 30%;
+        width: 80%;
+        margin: auto;
+        position: relative;
+        top:4%;
+        background-color: #d6e0f5;
+    }
+
+
+    .parUFormi {
+        text-align: left;
+        font-size: 0.9em;
+        position: relative;
+        left:10%;
+        margin-top:1%;
+        margin-bottom: 1%;
+    }
+
+    input[type="text"] {
+        position: relative;
+        left:10%;
+        margin-top: 1%;
+        width: 46%;
+        margin-top:1%;
+        margin-bottom: 1%;
+    }
+
+    input[type="submit"] {
+        width: 33%;
+        margin-top: 1%;
+        float: right;
+        margin-right: 15.5%;
+        margin-bottom: 0.5%;
+    }
+
+    input[type="button"] {
+        margin-left: 10%;
+        margin-top: 1%;
+        width: 64%;
+    }
+    
+
+    select {
+        margin-top: 1%;
+        margin-left: 10%;
+        width: 50%;
+        height: 9.8%;
+    }
+
+    #lista {
+        margin-left: 10%;
+        list-style: none;
+        border: 1px solid black;
+        width: 38%;
+        background-color: white;
+        height: 17%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        display: inline-block;
+        
+    }
+
+    #lista li {
+        font-size: 0.68em;
+        text-align: left;
+    }
+
+    input[type="checkbox"] {
+        position: relative;
+        left: 5%;
+        width: 13%;
+        margin-top: 2%;
+    }
+
+    #godina2, #zadatak {
+        height: 7.8%;
+    }
+
+    #ispis1 {
+        font-size: 0.9em;
+        margin-left: 2%;
+    }
+
+    #ispis2 {
+        font-size: 0.9em;
+        margin-top:-1%;
+    }
+   
+}

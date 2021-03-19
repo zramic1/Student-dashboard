@@ -1,0 +1,186 @@
+@media only screen and (min-Width: 600px){
+
+    body {
+        height: 100vh;
+        margin: auto;
+    }
+
+    #studenti {
+        height: 100%;
+        width: 100%;
+    }
+
+    #side {
+        background-color:   #eaeffa;
+        float: left;
+        width: 35%;
+        height: 72%;
+    }
+
+
+    #glavniSadrzaj {
+        background-color:  #c1d0f0;
+        float: right;
+        width: 65%;
+        height: 72%;
+    }
+
+    a:link{
+        color: #0f1e3e;
+    }
+
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+        color: #0f1e3e;
+    }
+
+  
+    #lista {
+        list-style:none;
+        overflow-y:scroll;
+        margin: auto;
+        border: 1px solid black;
+        width: 35%;
+        background-color: white;
+        max-height: 63%;
+        height: 63%;
+    }
+
+    #lista li {
+        text-align: left;
+        color: #0f1e3e;
+        margin-left: -1.5em;
+    }
+
+    table, td {
+        text-align: center;
+        border: 1px solid blue;
+        width: 60%;
+        height: 70%;
+   }
+
+   table {
+    border-collapse: collapse;
+    position: relative;
+    top:15%;
+    margin: auto;
+   }
+
+   td{
+    height: 2%;
+    width: 5%;
+    color: #0f1e3e;
+    text-align: left;
+   
+   }
+
+   tr:first-child {
+    background-color: #6f92dc;
+    height: 0.5%;
+    width: 5%;
+   }
+
+   td:first-child {
+    width: 2%;
+    }
+
+    td:nth-child(2) {
+        width: 10%;
+    }
+
+    
+}
+
+@media only screen and (max-Width: 600px){
+
+    body {
+        height: 100vh;
+        margin: auto;
+    }
+
+    #studenti {
+        height: 100%;
+    }
+
+    #side {
+        background-color:   #eaeffa;
+        height: 34%;
+        margin-top: -1.3em;
+        width: 100%;
+    }
+
+
+    #glavniSadrzaj {
+        background-color:  #c1d0f0;
+        height: 38%;
+        margin-bottom: -1.3em;
+        width: 100%;
+    }
+
+
+    a:link{
+        color: #0f1e3e;
+    }
+
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+        color: #0f1e3e;
+    }
+
+    #lista {
+        list-style:none;
+        overflow-y:scroll;
+        margin: auto;
+        border: 1px solid black;
+        width: 35%;
+        background-color: white;
+        max-height: 60%;
+        height: 60%;
+    }
+
+    #lista li {
+        text-align: left;
+        color: #0f1e3e;
+        margin-left: -1.5em;
+    }
+
+    table, td {
+        text-align: center;
+        border: 1px solid blue;
+        width: 60%;
+        height: 70%;
+   }
+
+   table {
+    border-collapse: collapse;
+    position: relative;
+    top:15%;
+    margin: auto;
+   }
+
+   td{
+    height: 2%;
+    width: 5%;
+    color: #0f1e3e;
+    text-align: left;
+   
+   }
+
+   tr:first-child {
+    background-color: #6f92dc;
+    height: 0.5%;
+    width: 5%;
+   }
+
+   td:first-child {
+    width: 2%;
+    }
+
+    td:nth-child(2) {
+        width: 10%;
+    }
+}

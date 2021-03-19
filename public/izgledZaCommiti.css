@@ -1,0 +1,226 @@
+@media only screen and (min-Width: 600px){
+
+    body {
+        height: 100vh;
+        margin: auto;
+    }
+
+    #commit {
+        height: 100%;
+    }
+
+    #glavni {
+        background-color: #eaeffa;
+        width: 100%;
+        height: 100%;
+        margin-bottom: -1.88em;
+        margin-top: -1.98%;
+        overflow:auto;
+        
+        
+    }
+
+    .poseban {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1em;
+        text-align: left;
+        color: #0f1e3e;
+        margin-left: 35%;
+        position: relative;
+        top:2%;
+        margin-bottom: 1%;
+    }
+
+    #hyperlink:link {
+        color: blue;
+    }
+
+    a:link{
+        color: #0f1e3e;
+    }
+
+
+    table,  td {
+        text-align: center;
+        border: 1px solid blue;
+        width: 40%;
+        height: 60%;
+   }
+
+   table {
+    border-collapse: collapse;
+    margin-left:40%;
+    width: 50%;
+    position: relative;
+    top: -95%;
+   }
+
+   td{
+    height: 2%;
+    width: 5%;
+    color: #0f1e3e;
+    text-align: center;
+   }
+
+
+    tr:first-child {
+        background-color: #6f92dc;
+        height: 0.5%;
+        width: 5%;
+    }       
+
+    td:first-child {
+        width: 10%;
+    }
+
+    #side {
+        width: 30%;
+        height: 100%;
+    }
+
+    #kreiraj {
+        border:outset; 
+        width: 45%;
+        margin-left: 10%;
+        margin-top:-10%;
+        float: left;
+        height: 100%;
+        margin-bottom: 1%;
+        width: 60%;
+    }
+
+
+    input[type="number"] {
+        margin-bottom: 1%;
+        width: 80%;
+    }
+
+    input[type="text"] {
+        margin-bottom: 1%;
+        width: 80%;
+    }
+
+    input[type="submit"] {
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    
+
+
+}
+
+@media only screen and (max-Width: 600px){
+
+    body {
+        height: 100vh;
+        margin: auto;
+    }
+
+    #commit {
+        height: 100%;
+    }
+
+    #glavni {
+        background-color: #eaeffa;
+        width: 100%;
+        height: 130%;
+        margin-bottom: -1.3em;
+        overflow: auto;
+    }
+
+    a:link{
+        color: #0f1e3e;
+    }
+
+
+    .poseban {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1em;
+        text-align: left;
+        color: #0f1e3e;
+        margin-top:1%;
+        margin-left: 20%;
+    }
+
+
+    #podaci {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+        color: #0f1e3e;
+    }
+
+
+    #hyperlink:link {
+        color: blue;
+    }
+
+    table, td {
+        text-align: center;
+        border: 1px solid blue;
+        width: 60%;
+        height: 70%;
+   }
+
+   table {
+        border-collapse: collapse;
+        border-collapse: collapse;
+        width: 80%;
+        position: relative;
+        height: 50%;
+        top: 1%;
+        left:5%;
+        
+       
+       
+    }
+
+    td{
+        height: 2%;
+        width: 5%;
+        color: #0f1e3e;
+        text-align: center;
+       }
+    
+    
+    tr:first-child {
+        background-color: #6f92dc;
+        height: 0.5%;
+        width: 5%;
+    }       
+    
+    td:first-child {
+        width: 10%;
+    }
+
+    #kreiraj {
+        margin-left: 1%;
+        border:outset; 
+        width: 60%;
+        margin-left: 20%;
+        margin-top:2%;
+        float: left;
+        height: 39%;
+        margin-bottom: 1%;
+    }
+
+   
+
+    input[type="number"] {
+        margin-bottom: 1%;
+        width: 80%;
+    }
+
+    input[type="text"] {
+        margin-bottom: 1%;
+        width: 80%;
+    }
+
+    input[type="submit"] {
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+   
+}

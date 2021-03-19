@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+    <TITLE>Dodavanje studenata</TITLE>
+    <link rel="stylesheet" type="text/css" href="izgledZaAddStudent.css">
+    <link rel="stylesheet" type="text/css" href="headerIFooter.css">
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="validacija.js"></script>
+    <script src="addStudent.js"></script>
+    <script src="BitBucket.js"></script>
+    </HEAD>
+    <BODY onload="napuni()">
+    <div id="vjezbe">
+
+        <div id="header">
+            <img id="logo" src="https://2.bp.blogspot.com/-dzDI9h3GKZE/WVF6AtMKEOI/AAAAAAAAGzA/rbrotJdBW30ry6xBBidb0PaaSXgl7QT5ACLcBGAs/s1600/paper_bird.png" alt="logo">
+            <h1>Dodavanje studenata</h1> 
+            <div id="meni">
+                    <ul>
+                        <li><a href="zadaci.html">Pregled godine</a></li>
+                        <li><a href="addGodina.html">Dodavanje godine</a></li>
+                        <li><a href="studenti.html">Pregled studenata</a></li>
+                        <li><a href="addStudent.html">Dodavanje studenata</a></li>
+                        <li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+                        <li><a href="commiti.html">Pregled commita</a></li>
+                        <li><a href="addVjezba.html">Dodavanje vježbe/spirale</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+            </div>
+        </div> 
+
+        <div id="glavniSadrzaj">
+           
+
+            <form name="fStudent" action="#">
+                <p>Unos studenta</p>   
+                <p class="parUFormi">Godina</p>
+                <select name="sGodina" id="godina1">
+                </select>  
+                <p class="parUFormi">Key</p> 
+                <input type="text" name="key" required id="key">
+                <p class="parUFormi">Secret</p> 
+                <input type="text" name="secret" required id="secret">   
+                <br>    
+                <button name="ucitaj" id="ucitaj" onclick="return kreiraj()">Učitaj</button> 
+                <input type="button" value="Dodaj" disabled id="dodaj" onclick="return posalji()">
+            </form>
+
+        </div>
+        
+        <div id="footer">
+            <p id="parFooter">Web tehnologije 2018/19</p>
+        </div>
+
+    </div>
+    </BODY>
+</HTML>
+    
